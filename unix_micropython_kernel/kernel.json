@@ -1,0 +1,11 @@
+{
+  "display_name": "micropython",
+  "language": "micropython",
+  "argv": [
+    "python",
+    "-m",
+    "unix_micropython_kernel",
+    "-f",
+    "{connection_file}"
+  ]
+}
