@@ -87,12 +87,10 @@ setup(
     author_email='luk.kielar@gmail.com',
     url='https://github.com/lukaszKielar/unix_micropython_kernel',
     install_requires=[
-        'ipykernel>=5.1.3',
-        'jupyterlab>=1.2.3'
+        'ipykernel',
+        'jupyterlab'
     ],
     setup_requires=[
-        'ipykernel',
-        'jupyterlab',
         'mypy',
         'pylint',
         'pytest'
